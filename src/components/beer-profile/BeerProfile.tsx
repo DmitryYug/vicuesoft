@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {AppApi} from "../../api/api";
 import {BeerCardType} from "../../reducers/app-reducer";
 import {useParams} from "react-router-dom";
-import {Preloader} from "../../preloader/Preloader";
+import {Preloader} from "../preloader/Preloader";
 import style from './BeerProfile.module.css'
 import noImage from '../../assets/137351.png'
 

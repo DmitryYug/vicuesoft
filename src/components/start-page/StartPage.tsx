@@ -2,7 +2,7 @@ import React from 'react'
 import {SearchForm} from "../search-panel/SearchForm";
 import {MyPagination} from "../pagination/Pagination";
 import {BerrCard} from "../beer-card/BerrCard";
-import {Preloader} from "../../preloader/Preloader";
+import {Preloader} from "../preloader/Preloader";
 import {BeerCardType} from "../../reducers/app-reducer";
 import style from './StartPage.module.css'
 
