@@ -4,6 +4,7 @@ import {BeerCardType} from "../../reducers/app-reducer";
 import {useParams} from "react-router-dom";
 import {Preloader} from "../../preloader/Preloader";
 import style from './BeerProfile.module.css'
+import noImage from '../../assets/137351.png'
 
 
 export const BeerProfile: React.FC = () => {
@@ -23,10 +24,10 @@ export const BeerProfile: React.FC = () => {
     return (
         card
             ? <div className={style.profileContainer}>
-                <div>
-                    <img className={style.img} src={card.image_url} alt=""/>
+                <div className={style.imgContainer}>
+                    <img className={style.img} src={card.image_url ? card.image_url : noImage} alt=""/>
                 </div>
-                <div>
+                <div className={style.textContainer}>
                     <h1 className={style.header}>{card.name}</h1>
                     <h2 className={style.header}>{card.tagline}</h2>
                     <div className={style.subtitle}>ABV:{card.abv}</div>
