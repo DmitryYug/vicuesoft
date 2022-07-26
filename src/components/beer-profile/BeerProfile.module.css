@@ -1,0 +1,15 @@
+.img {
+    width: 150px;
+    height: 450px;
+}
+.profileContainer {
+    display: flex;
+    max-height: 100vh;
+}
+.subtitle {
+    margin: 20px 40px;
+}
+
+.header {
+    text-align: center;
+}
