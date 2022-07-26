@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vicuesoft/static/css/main.eede6af7.css",
+    "main.js": "/vicuesoft/static/js/main.59df4a05.js",
+    "static/media/137351.png": "/vicuesoft/static/media/137351.c5884399537e03e8a2d3.png",
+    "static/media/Spinner-1.2s-231px.svg": "/vicuesoft/static/media/Spinner-1.2s-231px.528cd585f47a20bb18f2f2948558f67e.svg",
+    "index.html": "/vicuesoft/index.html",
+    "main.eede6af7.css.map": "/vicuesoft/static/css/main.eede6af7.css.map",
+    "main.59df4a05.js.map": "/vicuesoft/static/js/main.59df4a05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eede6af7.css",
+    "static/js/main.59df4a05.js"
+  ]
+}
