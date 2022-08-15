@@ -1,4 +1,6 @@
-## FLUX data flow. API search by name, pagination. Base Material UI styles.
+#### FLUX data flow. 
+#### API search by name, pagination. 
+#### Base Material UI styles.
 
 
 ## To start project
